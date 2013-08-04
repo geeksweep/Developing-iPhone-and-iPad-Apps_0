@@ -14,7 +14,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *buttonContents;
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
-@property (strong, nonatomic) PlayingCardDeck *myDeck;
+@property (nonatomic) PlayingCardDeck *myDeck;
 
 @end
 
