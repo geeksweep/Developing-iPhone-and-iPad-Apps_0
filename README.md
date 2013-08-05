@@ -14,7 +14,9 @@ Additions:
 
 1. I only increment the flipCount when the button is selected
 2. When we are out of cards, I do the following:
+
     2a. set the flipCount to 0 and set the selected state to NO.
+    
     2b. set my PlayingCardDeck property to nil
     
     This allows for a new set of random cards to draw from without having to run the program again.
